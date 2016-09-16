@@ -1,8 +1,4 @@
-﻿body, html {
-    background-image: url('../img/background_image.jpg');
-    background-size: cover;
-}
-
+﻿
 #titulo{   
      color: white;
 }
@@ -10,6 +6,7 @@
 .login-register{
 	font-size: 13px;
 	text-align: center;
+    color: blue;
 }
 
  #titulo, log {

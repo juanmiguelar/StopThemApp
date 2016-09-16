@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ingresar</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/landing-style.css" rel="stylesheet" />
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!--Todo lo q esta arriba de esto es necesario para bootstrap-->
+    <link href="css/styleLogin.css" rel="stylesheet" />
+
+</head>
+
+<body class="container-full">
+
+
+
+    <div class="container-fluid">
+
+        <h2 id="titulo">Iniciar su sesión</h2>
+
+        <div class="card card-container" id="log">
+
+            <img id="profile-img" class="profile-img-card" src="img/avatar_2x.png " />
+            <p id="profile-name" class="profile-name-card"></p>
+
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Correo electrónico"  required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+
+                <div id="remember" class="checkbox">
+                    <style type="text/css">
+                        p#msj {
+                            color: red;
+                        }
+                    </style>
+
+                    <br />
+                    <p id="msj" class="help-block"></p>
+                    <input type="submit" class="btn btn-lg btn-primary btn-block btn-signin"></input>
+                    <br />
+                    <a href="register.html" class="lead" style="color:blue">Registrate</a>
+                </div>
+
+            </form>
+
+        </div>
+        <!-- /card-container -->
+    </div>
+    <!-- /container -->
+
+</body>
+
+</html>
